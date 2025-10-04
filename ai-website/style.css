@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #222;
+}
+header {
+    background: linear-gradient(90deg, #0f2027, #2c5364);
+    color: #fff;
+    padding-bottom: 40px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav ul li a:hover {
+    color: #ffd700;
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px 40px 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+.cta {
+    background: #ffd700;
+    color: #222;
+    padding: 12px 32px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: background 0.2s;
+}
+.cta:hover {
+    background: #fff;
+}
+main {
+    max-width: 1000px;
+    margin: -40px auto 0 auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(44,83,100,0.08);
+    padding: 40px 30px;
+}
+section {
+    margin-bottom: 40px;
+}
+section h2 {
+    color: #2c5364;
+    margin-bottom: 18px;
+    font-size: 2rem;
+}
+.features-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.feature {
+    background: #f5f7fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(44,83,100,0.06);
+    padding: 24px;
+    flex: 1 1 250px;
+    min-width: 220px;
+}
+.feature h3 {
+    color: #0f2027;
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+}
+input, textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+button {
+    background: #2c5364;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #0f2027;
+}
+#formMessage {
+    margin-top: 16px;
+    font-weight: bold;
+    color: #2c5364;
+}
+footer {
+    text-align: center;
+    padding: 24px 0;
+    background: #2c5364;
+    color: #fff;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-top: 40px;
+}
