@@ -2,6 +2,7 @@
 
 Website ini adalah proyek sederhana yang membahas Artificial Intelligence (AI) dengan desain modern dan interaktif menggunakan HTML, CSS, dan JavaScript.
 
+
 ## Fitur Utama
 
 - **Desain Modern & Responsif**: Tampilan website dibuat dengan layout dan animasi yang menarik agar nyaman digunakan di berbagai perangkat.
@@ -10,12 +11,15 @@ Website ini adalah proyek sederhana yang membahas Artificial Intelligence (AI) d
 - **Sumber Belajar AI**: Link ke berbagai platform pembelajaran AI seperti Coursera, edX, dan Google ML Crash Course.
 - **Form Kontak**: Pengunjung dapat mengirim pesan melalui form kontak yang interaktif.
 - **Footer Media Sosial**: Terdapat ikon media sosial untuk memperkuat branding dan koneksi.
+- **Blog AI**: Halaman blog berisi artikel, berita, dan inspirasi seputar Artificial Intelligence.
 
 ## Struktur Proyek
+
 
 ```
 ai-website/
 ├── index.html      # Halaman utama website
+├── blog.html       # Halaman blog AI
 ├── style.css       # Desain dan animasi website
 ├── script.js       # Interaksi dan animasi form
 ```
